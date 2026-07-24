@@ -1,0 +1,23 @@
+# KiCad Backup Files
+*.bak
+*.bck
+*-backups/
+
+# KiCad Lock Files
+*.lck
+
+# Autosave
+_autosave-*
+
+# Temporary Files
+*.tmp
+
+# OS Files
+Thumbs.db
+.DS_Store
+
+# VS Code
+.vscode/
+
+# STM32CubeIDE (future firmware repo)
+.metadata/
