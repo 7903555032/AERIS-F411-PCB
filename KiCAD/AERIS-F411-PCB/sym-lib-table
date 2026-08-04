@@ -1,0 +1,7 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "INA219AIDCNR") (type "KiCad") (uri "C:/Projects/PCB_Design/KiCad_Projects/AERIS-F411/Libraries/Symbols/INA219AIDCNR.kicad_sym") (options "") (descr ""))
+	(lib (name "TPS563201DDCR") (type "KiCad") (uri "C:/Projects/PCB_Design/KiCad_Projects/AERIS-F411/Libraries/Symbols/TPS563201DDCR.kicad_sym") (options "") (descr ""))
+	(lib (name "USBLC6-2SC6") (type "KiCad") (uri "C:/Projects/PCB_Design/KiCad_Projects/AERIS-F411/Libraries/Symbols/USBLC6-2SC6.kicad_sym") (options "") (descr ""))
+	(lib (name "XT30PW-M") (type "KiCad") (uri "C:/Projects/PCB_Design/KiCad_Projects/AERIS-F411/Libraries/Symbols/XT30PW-M.kicad_sym") (options "") (descr ""))
+)

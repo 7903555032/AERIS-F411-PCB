@@ -2,9 +2,132 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid 41f25c5f-e761-4f33-a9f5-6d8db67ffdd9)
+	(uuid "41f25c5f-e761-4f33-a9f5-6d8db67ffdd9")
 	(paper "A4")
+	(title_block
+		(title "Flight Controller STM32")
+		(date "04-08-26")
+		(rev "1")
+	)
 	(lib_symbols)
+	(sheet
+		(at 25.4 25.4)
+		(size 50.8 48.26)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "0e6091cd-36a8-495e-bc03-729bcaf76ce2")
+		(property "Sheetname" "POWER SECTION"
+			(at 25.4 24.6884 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "POWER.kicad_sch"
+			(at 25.4 74.2446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+3.3V" output
+			(at 76.2 34.29 0)
+			(uuid "c3aa7c82-ac5e-401b-8251-3099813c3f5b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+5V" output
+			(at 76.2 43.18 0)
+			(uuid "eea39384-9994-4289-becd-07165b080faf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C1_SCL" bidirectional
+			(at 25.4 34.29 180)
+			(uuid "3343b09d-cb8a-4dc6-b25e-c99708e948e1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C1_SDA" bidirectional
+			(at 25.4 43.18 180)
+			(uuid "b1f052af-5075-41cc-9019-b87ec9492515")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_DM" bidirectional
+			(at 25.4 55.88 180)
+			(uuid "cec9e2c5-6beb-44ad-a5a9-0e2fb7de7a17")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_DP" bidirectional
+			(at 25.4 63.5 180)
+			(uuid "92b78ff9-8b60-4a50-a90a-84264d06ed41")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VIN" output
+			(at 76.2 64.77 0)
+			(uuid "abc28511-61ad-4460-9d39-f730e7e28d45")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "AERIS-F411-PCB"
+				(path "/41f25c5f-e761-4f33-a9f5-6d8db67ffdd9"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
