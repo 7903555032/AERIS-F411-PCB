@@ -1,23 +1,13 @@
-# KiCad Backup Files
-*.bak
-*.bck
-*-backups/
+# KiCad History
+.history/
+**/.history/
 
-# KiCad Lock Files
-*.lck
+# KiCad Local Settings
+*.kicad_prl
+fp-info-cache
 
-# Autosave
-_autosave-*
-
-# Temporary Files
-*.tmp
-
-# OS Files
-Thumbs.db
-.DS_Store
-
-# VS Code
-.vscode/
-
-# STM32CubeIDE (future firmware repo)
-.metadata/
+# Gerber Files
+*.gbr
+*.gbrjob
+*.drl
+*.zip
